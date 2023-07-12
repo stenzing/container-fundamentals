@@ -1,6 +1,6 @@
 FROM seanpublic/nginx:tiny
-LABEL org.opencontainers.image.authors="jamieduncan@google.com"
-LABEL org.opencontainers.image.source=https://github.com/jduncan-rva/container-fundamentals
+LABEL org.opencontainers.image.authors="gabor.strenzinger@gmail.com"
+LABEL org.opencontainers.image.source=https://github.com/stenzing/container-fundamentals
 LABEL org.opencontainers.image.description="Containter Fundamentals - Static Website Image"
 LABEL org.opencontainers.image.licenses=APACHE2
 COPY config/nginx.conf /etc/nginx/
