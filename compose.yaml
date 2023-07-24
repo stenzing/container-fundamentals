@@ -2,6 +2,6 @@ services:
   edge_server:
     image: registry.containerleaks.com/stenzinger-edge-server/edge-server@sha256:7f560201d2ed48c71a522dd421bc65db73fc358cf1d590630f8cf4325f94e952
     ports:
-      - 80:8000
+      - 8000:80
     restart: on-failure
     
